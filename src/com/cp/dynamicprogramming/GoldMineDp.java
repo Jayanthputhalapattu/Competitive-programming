@@ -33,6 +33,7 @@ public class GoldMineDp {
                 }
             }
         }
+
         for(int[] d:dp)
         {
             System.out.println(Arrays.toString(d));

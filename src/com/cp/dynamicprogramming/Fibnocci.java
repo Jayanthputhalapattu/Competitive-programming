@@ -144,9 +144,9 @@ public class Fibnocci {
 ////        System.out.println(fibMem(n,new int[n+1]));
 ////        System.out.println(countPaths(4,new int[4 +1]));
 ////        System.out.println(climbWays(new int[]{3,3,0,2,2,3}));
-//         int arr[] = {3,2,4,2,0,2,3,1,2,2};
-//         int num = minMovesToReachTop(arr);
-//        System.out.println(num);
+         int arr[] = {2,3,1,1,4};
+         int num = minMovesToReachTop(arr);
+        System.out.println(num);
 
 //        System.out.println(minCostMaze(nums,0,0,0));
         System.out.println(minCostMaze(nums));

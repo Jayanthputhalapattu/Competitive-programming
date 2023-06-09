@@ -48,7 +48,6 @@ class LL{
 //        System.out.println(ans.val);
         head.next.next = head;
         head.next = null;
-
         return ans;
 
 
@@ -251,7 +250,7 @@ public class CycleLinkedList {
 //        System.out.println(head1.val);
 //        l1.reverse(head1);
 //        System.out.println("<====After reversing =====>");
-//        ListNode ans = l1.reverse(head1);
+        ListNode ans = l1.reverse(head1);
 //        l1.printAll(ans);
 //        System.out.println(head1.next.val + " hello 11");
         l1.reverseIterative();
